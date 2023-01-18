@@ -1,12 +1,17 @@
 {
-  "name": "stamOS",
+  "name": "Stamati OS",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "example-nextjs-app:dev": "nx run example-nextjs-app:dev",
+    "example-nextjs-app:build": "nx run example-nextjs-app:build",
+    "example-nextjs-app:start": "nx run example-nextjs-app:start",
+    "example-ui-lib:build": "nx run example-ui-lib:build"
   },
   "keywords": [],
   "author": "Stamati Morellas",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nx": "^15.5.1"
+  }
 }

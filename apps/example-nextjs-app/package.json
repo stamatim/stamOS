@@ -1,9 +1,10 @@
 {
-  "name": "website",
+  "name": "example-nextjs-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "pnpm --filter example-ui-lib build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -15,10 +16,10 @@
     "@types/react-dom": "18.0.10",
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.2",
+    "example-ui-lib": "workspace:*",
     "next": "13.1.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "shared-ui": "workspace:^1.0.0",
     "typescript": "4.9.4"
   }
 }
