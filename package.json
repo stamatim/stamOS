@@ -12,6 +12,9 @@
   "author": "Stamati Morellas",
   "license": "ISC",
   "devDependencies": {
+    "@nrwl/cli": "^15.5.2",
+    "@nrwl/storybook": "^15.5.2",
+    "@nrwl/workspace": "^15.5.2",
     "nx": "^15.5.1"
   }
 }
